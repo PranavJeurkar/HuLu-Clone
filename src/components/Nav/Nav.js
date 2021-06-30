@@ -24,7 +24,7 @@ function Nav({ setselectedOption }) {
             Romance
           </h2>
           <h2 onClick={() => setselectedOption(requests.fetchMystery)}>Mystery</h2>
-          <h2 onClick={() => setselectedOption(requests.fetchSciFi)}>Sci-fi</h2>
+          <h2 onClick={() => setselectedOption(requests.fetchSciFi)}>Sci-Fi</h2>
           <h2 onClick={() => setselectedOption(requests.fetchWestern)}>Western</h2>
           <h2 onClick={() => setselectedOption(requests.fetchAnimation)}>
             Animation
