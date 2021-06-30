@@ -12,7 +12,7 @@ const VideoCard = forwardRef(({movie},ref) => {
           <img src={`${base_url}${movie.backdrop_path || movie.poster_path}`}
           alt="movie poster"/>
           <TextTruncate
-          line={2}
+          line={1}
           element="p"
           truncateText="..."
           text={movie.overview}
